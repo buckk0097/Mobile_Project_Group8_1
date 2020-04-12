@@ -40,14 +40,14 @@ public class FragmentContact extends Fragment {
         super.onCreate(savedInstanceState);
 
         lstContact = new ArrayList<>();
-        lstContact.add(new Contact("Clara Clark", "(358) 589762846", R.drawable.claraclark));
+        lstContact.add(new Contact("Clara Clark", "(358) 589762846", R.drawable.claraclarck));
         lstContact.add(new Contact("Emma Paige", "(358) 456893476", R.drawable.emmapaige));
         lstContact.add(new Contact("James Gate", "(356) 554867921", R.drawable.jamesgate));
         lstContact.add(new Contact("Jasmine Nekaty", "(358) 549813576", R.drawable.jasminenekaty));
         lstContact.add(new Contact("Leon Fox", "(358) 476581234", R.drawable.leonfox));
         lstContact.add(new Contact("Sara Ramirez", "(358) 489762846", R.drawable.sararamirez));
         lstContact.add(new Contact("Tom White", "(358) 489762846", R.drawable.tomwhite));
-        lstContact.add(new Contact("Clara Clark", "(358) 589762846", R.drawable.claraclark));
+        lstContact.add(new Contact("Clara Clark", "(358) 589762846", R.drawable.claraclarck));
         lstContact.add(new Contact("Emma Paige", "(358) 456893476", R.drawable.emmapaige));
         lstContact.add(new Contact("James Gate", "(356) 554867921", R.drawable.jamesgate));
         lstContact.add(new Contact("Jasmine Nekaty", "(358) 549813576", R.drawable.jasminenekaty));
