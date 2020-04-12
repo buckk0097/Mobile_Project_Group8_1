@@ -14,7 +14,8 @@
         android:background="@color/colorPrimary"
         app:tabGravity="fill"
         app:tabIndicatorColor="@color/colorAccent"
-        app:tabMode="fixed">
+        app:tabMode="fixed"
+        app:tabTextColor="@android:color/white">
 
     </com.google.android.material.tabs.TabLayout>
 

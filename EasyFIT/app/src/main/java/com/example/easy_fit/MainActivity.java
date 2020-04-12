@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
         // Add Fragment here
 
-        adapter.AddFragment(new FragmentCall(),"");
-        adapter.AddFragment(new FragmentContact(),"");
-        adapter.AddFragment(new FragmentFav(),"");
+        adapter.AddFragment(new FragmentCall(),"Diets");
+        adapter.AddFragment(new FragmentContact(),"Coaches");
+        adapter.AddFragment(new FragmentFav(),"PROFILE");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_call);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_group);
-        tabLayout.getTabAt(2).setIcon(R.drawable.ic_star);
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_dvr);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_directions_bike);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_perm_contact);
 
 
         // Remove shadow from action bar

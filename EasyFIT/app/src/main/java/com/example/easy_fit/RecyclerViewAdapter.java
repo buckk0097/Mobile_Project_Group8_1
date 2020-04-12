@@ -54,8 +54,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 dialog_name_tv.setText(mData.get(vHolder.getAdapterPosition()).getName());
                 dialog_phone_tv.setText(mData.get(vHolder.getAdapterPosition()).getPhone());
                 dialog_contact_img.setImageResource(mData.get(vHolder.getAdapterPosition()).getPhoto());
-                Toast.makeText(mContext, "You have chosen the Coach Number"+String.valueOf(vHolder.getAdapterPosition()), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "You have chosen Coach "+mData.get(vHolder.getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
+               // Toast.makeText(mContext, "You have chosen the Coach Number"+String.valueOf(vHolder.getAdapterPosition()+1), Toast.LENGTH_SHORT).show();
                 myDialog.show();
+
             }
         });
         return vHolder;
