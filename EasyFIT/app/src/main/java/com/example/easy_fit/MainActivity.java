@@ -1,5 +1,6 @@
 package com.example.easy_fit;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
@@ -26,12 +27,21 @@ public class MainActivity extends AppCompatActivity {
 
         // Add Fragment here
 
-        adapter.AddFragment(new FragmentCall(),"Call");
-        adapter.AddFragment(new FragmentContact(),"Contact");
-        adapter.AddFragment(new FragmentFav(),"Favorites");
+        adapter.AddFragment(new FragmentCall(),"");
+        adapter.AddFragment(new FragmentContact(),"");
+        adapter.AddFragment(new FragmentFav(),"");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_call);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_group);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_star);
+
+
+        // Remove shadow from action bar
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setElevation(0);
 
 
     }
