@@ -40,23 +40,23 @@ public class FragmentContact extends Fragment {
         super.onCreate(savedInstanceState);
 
         lstContact = new ArrayList<>();
-        lstContact.add(new Contact("Clara Clark", "FITNESS", R.drawable.claraclarck));
-        lstContact.add(new Contact("Emma Paige", "YOGA", R.drawable.emmapaige));
-        lstContact.add(new Contact("James Gate", "BODYBUILDING", R.drawable.jamesgate));
-        lstContact.add(new Contact("Jasmine Nekaty", "JUDO", R.drawable.jasminenekaty));
-        lstContact.add(new Contact("Leon Fox", "CLIMBING", R.drawable.leonfox));
-        lstContact.add(new Contact("Sara Ramirez", "CYCLING6", R.drawable.sararamirez));
-        lstContact.add(new Contact("Tom White", "SWIMMING", R.drawable.tomwhite));
-        lstContact.add(new Contact("Clara Clark", "FITNESS", R.drawable.claraclarck));
-        lstContact.add(new Contact("Emma Paige", "GYMNASTICS", R.drawable.emmapaige));
-        lstContact.add(new Contact("James Gate", "CURLING", R.drawable.jamesgate));
-        lstContact.add(new Contact("Jasmine Nekaty", "RUNNING", R.drawable.jasminenekaty));
-        lstContact.add(new Contact("Leon Fox", "BODYBUILDING", R.drawable.leonfox));
-        lstContact.add(new Contact("Sara Ramirez", "FITNESS", R.drawable.sararamirez));
-        lstContact.add(new Contact("Tom White", "SWIMMING", R.drawable.tomwhite));
-        lstContact.add(new Contact("Leon Fox", "YOGA", R.drawable.leonfox));
-        lstContact.add(new Contact("Sara Ramirez", "KARATE", R.drawable.sararamirez));
-        lstContact.add(new Contact("Tom White", "BODYBUILDING", R.drawable.tomwhite));
+        lstContact.add(new Contact("Clara Clark", "FITNESS", "Hello, My name is Clara and im from Helsinki I have been a professional trainer for 4 years. I'm capable of mentoring various types of programs and diets (vegan, vegetarian ...etc). Im looking forward to working with you", R.drawable.claraclarck));
+        lstContact.add(new Contact("Emma Paige", "YOGA", "My name is emma, Im from the USA but i live in Finland. I've always loved YOGA , 2 years ago i earned my Yoga instructoring diploma. Feel free to contact me if you have any questions about the program and the benefits of training your body! ", R.drawable.emmapaige));
+        lstContact.add(new Contact("James Gate", "BODYBUILDING","HI! Im James Gate, I've been a Bodybuilding professional trainer for 7 years. I have various programs for different types of stops and goals. Please do contact me if you devide to start trainer because i can help you get in a great shape", R.drawable.jamesgate));
+        lstContact.add(new Contact("Jasmine Nekaty", "JUDO", "description", R.drawable.jasminenekaty));
+        lstContact.add(new Contact("Leon Fox", "CLIMBING", "Description", R.drawable.leonfox));
+        lstContact.add(new Contact("Sara Ramirez", "CYCLING6", "Description", R.drawable.sararamirez));
+        lstContact.add(new Contact("Tom White", "SWIMMING", "Description", R.drawable.tomwhite));
+        lstContact.add(new Contact("Clara Clark", "FITNESS", "Description", R.drawable.claraclarck));
+        lstContact.add(new Contact("Emma Paige", "GYMNASTICS", "Description", R.drawable.emmapaige));
+        lstContact.add(new Contact("James Gate", "CURLING", "Description", R.drawable.jamesgate));
+        lstContact.add(new Contact("Jasmine Nekaty", "RUNNING","Description",  R.drawable.jasminenekaty));
+        lstContact.add(new Contact("Leon Fox", "BODYBUILDING", "Description", R.drawable.leonfox));
+        lstContact.add(new Contact("Sara Ramirez", "FITNESS","Description",  R.drawable.sararamirez));
+        lstContact.add(new Contact("Tom White", "SWIMMING","Description",  R.drawable.tomwhite));
+        lstContact.add(new Contact("Leon Fox", "YOGA","Description",  R.drawable.leonfox));
+        lstContact.add(new Contact("Sara Ramirez", "KARATE", "Description", R.drawable.sararamirez));
+        lstContact.add(new Contact("Tom White", "BODYBUILDING","Description",  R.drawable.tomwhite));
 
     }
 }

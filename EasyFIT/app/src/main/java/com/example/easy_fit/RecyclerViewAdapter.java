@@ -50,11 +50,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             public void onClick(View v) {
                 TextView dialog_name_tv = (TextView) myDialog.findViewById(R.id.dialog_name_id);
                 TextView dialog_phone_tv = (TextView) myDialog.findViewById(R.id.dialog_phone_id);
+                TextView dialog_description_tv = (TextView) myDialog.findViewById(R.id.dialog_description_id);
                 ImageView dialog_contact_img = (ImageView) myDialog.findViewById(R.id.dialog_img);
                 dialog_name_tv.setText(mData.get(vHolder.getAdapterPosition()).getName());
                 dialog_phone_tv.setText(mData.get(vHolder.getAdapterPosition()).getPhone());
+                dialog_description_tv.setText(mData.get(vHolder.getAdapterPosition()).getDescription());
                 dialog_contact_img.setImageResource(mData.get(vHolder.getAdapterPosition()).getPhoto());
-                Toast.makeText(mContext, "You have chosen Coach "+mData.get(vHolder.getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, "You chose Coach "+mData.get(vHolder.getAdapterPosition()).getName(), Toast.LENGTH_SHORT).show();
                // Toast.makeText(mContext, "You have chosen the Coach Number"+String.valueOf(vHolder.getAdapterPosition()+1), Toast.LENGTH_SHORT).show();
                 myDialog.show();
 
@@ -68,6 +70,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         holder.tv_name.setText(mData.get(position).getName());
         holder.tv_phone.setText(mData.get(position).getPhone());
+        holder.tv_description.setText(mData.get(position).getDescription());
         holder.img.setImageResource(mData.get(position).getPhoto());
 
 
@@ -83,6 +86,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         private LinearLayout item_contact;
         private TextView tv_name;
         private TextView tv_phone;
+        private TextView tv_description;
         private ImageView img;
 
 
@@ -92,6 +96,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
           item_contact = (LinearLayout) itemView.findViewById(R.id.item_contact_id);
           tv_name = (TextView) itemView.findViewById(R.id.name_contact);
           tv_phone = (TextView) itemView.findViewById(R.id.phone_contact);
+          tv_description = (TextView) itemView.findViewById(R.id.description_contact);
           img = (ImageView) itemView.findViewById(R.id.img_contact);
 
       }

@@ -32,7 +32,12 @@
             android:layout_height="wrap_content"
             android:text="Phone Nummber here"
             android:id="@+id/phone_contact"/>
-
+        <TextView
+            android:id="@+id/description_contact"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="description"
+            android:textColor="#ffffff" />
 
 
     </LinearLayout>
@@ -48,5 +53,6 @@
             android:src="@drawable/ic_call"
            />
     </LinearLayout>
+
 
 </LinearLayout>

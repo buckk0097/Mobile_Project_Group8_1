@@ -4,14 +4,16 @@ public class Contact {
 
     private String Name ;
     private String Phone ;
+    private String Description ;
     private int Photo ;
 
     public Contact() {
     }
 
-    public Contact(String name, String phone, int photo) {
+    public Contact(String name, String phone, String description, int photo) {
         Name = name;
         Phone = phone;
+        Description = description;
         Photo = photo;
     }
 
@@ -25,6 +27,9 @@ public class Contact {
 
     public String getPhone() {
         return Phone;
+    }
+    public String getDescription() {
+        return Description;
     }
 
     public int getPhoto() {
@@ -40,6 +45,10 @@ public class Contact {
 
     public void setPhone(String phone) {
         Phone = phone;
+    }
+
+    public void setDescription(String description) {
+        Description = description;
     }
 
     public void setPhoto(int photo) {
