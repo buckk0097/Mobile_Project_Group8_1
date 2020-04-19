@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Add Fragment here
 
-        adapter.AddFragment(new FragmentCall(),"Diets");
+        adapter.AddFragment(new FragmentCall(),"News");
         adapter.AddFragment(new FragmentContact(),"Coaches");
         //adapter.AddFragment(new FragmentFav(),"PROFILE");
 

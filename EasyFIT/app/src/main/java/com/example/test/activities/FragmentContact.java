@@ -48,7 +48,7 @@ public class FragmentContact extends Fragment {
         lstContact.add(new Contact("Clara Clark", "FITNESS", "Hello, My name is Clara and im from Helsinki I have been a professional trainer for 4 years. I'm capable of mentoring various types of programs and diets (vegan, vegetarian ...etc). Im looking forward to working with you", R.drawable.claraclarck));
         lstContact.add(new Contact("Emma Paige", "YOGA", "My name is emma, Im from the USA but i live in Finland. I've always loved YOGA , 2 years ago i earned my Yoga instructoring diploma. Feel free to contact me if you have any questions about the program and the benefits of training your body! ", R.drawable.emmapaige));
         lstContact.add(new Contact("James Gate", "BODYBUILDING","HI! Im James Gate, I've been a Bodybuilding professional trainer for 7 years. I have various programs for different types of stops and goals. Please do contact me if you devide to start trainer because i can help you get in a great shape", R.drawable.jamesgate));
-        lstContact.add(new Contact("Jasmine Nekaty", "JUDO", "description", R.drawable.jasminenekaty));
+        lstContact.add(new Contact("Jasmine Nekaty", "JUDO", "Hello! My name is Jasmine and i have the black belt in judo 4th level. I've been training judo for 10 years and i coached it for 4 years now. Feel free to contact me so i can tell you more about JUDO amazing benefits and training program", R.drawable.jasminenekaty));
         lstContact.add(new Contact("Leon Fox", "CLIMBING", "Description", R.drawable.leonfox));
         lstContact.add(new Contact("Sara Ramirez", "CYCLING6", "Description", R.drawable.sararamirez));
         lstContact.add(new Contact("Tom White", "SWIMMING", "Description", R.drawable.tomwhite));
