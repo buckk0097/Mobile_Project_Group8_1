@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/backgroundfragment">
 
-</LinearLayout>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundfragment">
+    
+    <androidx.core.widget.NestedScrollView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            app:cardBackgroundColor="@color/cardbackground"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:text="Card Title!" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="Turning away from the ledge, he started slowly down the mountain, deciding that he would, that very night, satisfy his curiosity about the man-house. In the meantime, he would go down into the canyon and get a cool drink, after which he would visit some berry patches just over the ridge, and explore among the foothills a bit before his nap-time, which always came just after the sun had walked past the middle of the sky. At that period of the day the sun’s warm rays seemed to cast a sleepy spell over the silent mountainside, so all of the animals, with one accord, had decided it should be the hour for their mid-day sleep."/>
+                <ImageView
+                    android:id="@+id/shareimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="end"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        
+    </androidx.core.widget.NestedScrollView>
+
+
+    <include layout="@layout/bottomsheet"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+

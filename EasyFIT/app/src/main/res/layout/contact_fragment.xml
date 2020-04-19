@@ -13,4 +13,5 @@
     android:id="@+id/contact_recyclerview">
 </androidx.recyclerview.widget.RecyclerView>
 
+
 </LinearLayout>
